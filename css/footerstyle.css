@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+    padding: 0px 50px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: #8BBE1A;
+}
+
+.footlogo{
+    padding: 10px;
+    display: flex;
+    width: 130px;
+    height: 30px;
+    margin: auto;
+}
+.footlogo img{
+    height: 50px;
+}
+
+.inner-footer h4{
+    color: #4E2C5D;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.social-links1{
+    display: flex;
+}
+
+.social-links1 ul{
+    padding: 10px;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+
+.social-links2{
+    display: flex;
+}
+
+.social-links2 ul{
+    padding: 10px;
+    display: flex;
+    width: 300px;
+    height: 20px;
+    margin: auto;
+}
+
+.social-items{
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+
+.social-items a{
+    padding: 10px 10px;
+    font-size: 35px;
+    color: #4E2C5D;
+}
+.copyright{
+    color: #4E2C5D;
+    padding: 40px 0px;
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: #8BBE1A;
+}
+
+
