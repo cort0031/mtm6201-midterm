@@ -1,0 +1,37 @@
+
+.buttonwrap{
+    width: 600px;
+    margin: auto;
+}
+
+
+.btn{
+    border-radius: 5px;
+    background-color: purple;
+    border: none;
+    color: green;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toprow{
+    display: flex;
+   
+}
+
+.toprow > * {
+    flex-basis: 100%;
+}
+
+.bottomrow{
+    display: flex;
+
+}
+
+.bottomrow > * {
+    flex-basis: 100%;
+}
+/* I used flex basis to make their size even */
