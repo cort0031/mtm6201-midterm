@@ -66,6 +66,7 @@ body{
 .bgimage img{
     opacity: 0.75;
     width: 100%;
+    margin: 0;
 }
 
 
@@ -119,7 +120,71 @@ body{
 h2{
     margin: 0px;
 }
+/* //////////////PRODUCTS STYLING//////////////// */
+.logobanner{
+    background-color: white;
+}
 
+.logobanner img{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    width: 500px;
+    margin: auto;
+}
+
+.buttonwrap{
+    width: 600px;
+    margin: auto;
+}
+
+
+.btn{
+    border-radius: 5px;
+    background-color: #4E2C5D;
+    border: none;
+    color: #8BBE1A;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #8BBE1A;
+    text-align: center;
+}
+
+.btn:hover{
+    background: rgb(41, 0, 41);
+    text-decoration: solid;
+}
+
+.toprow{
+    display: flex;
+   
+}
+
+.toprow > * {
+    flex-basis: 100%;
+}
+
+.bottomrow{
+    display: flex;
+
+}
+
+.bottomrow > * {
+    flex-basis: 100%;
+}
+/* I used flex basis to make their size even */
+
+.productimg img{
+    width: 100%;
+}
 
 /* //////////////FOOTER STYLING//////////////// */
 
