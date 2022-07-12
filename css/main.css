@@ -3,33 +3,31 @@ body{
     padding: 0;
     background: #4E2C5D;
 }
-
+/* I used a general background logo to blend the page */
 /* //////////////NAV BAR STYLING////////////// */
 .navbackground{
     background-color: #4E2C5D;
 }
-
+/* I used a wrap to keep my navigation tight and centered */
 .navwrap {
     max-width: 900px;
     margin: auto;
 }
-
 .navigation nav{
     width: 100%;
     overflow: auto;
     background: #4E2C5D;
 }
-
 .navigation ul{
     padding: 0;
     margin: 0 0 0 250px;
     list-style: none;
 }
-
+/* I made a float so my logo could be on the same line with the nav */
 .navigation li{
     float: left;
 }
-
+/* General styling */
 .navigation li a{
     width: 100px;
     display: block;
@@ -40,19 +38,18 @@ body{
     text-align: center;
     font-size: 15px;
 }
-
+/* A simple animation for the navigation */
 .navigation li a:hover{
     background: rgb(41, 0, 41);
     text-decoration: solid;
 }
-
 .logo img{
     position: absolute;
     margin-top: 5px;
     margin-left: 10px;
     height: 45px;
 }
-
+/* A fade effect for the logo */
 .logo:hover{
     opacity: 0.5;
     transition: 0.5s;
@@ -62,27 +59,24 @@ body{
     transition: 0.5s;
 }
 /* //////////////HOME CONTENT//////////////// */
-
 .bgimage img{
     opacity: 0.75;
     width: 100%;
     margin: 0;
 }
-
-
+/* I used the absolute value to make the big logo be over the image */
 .purplelogo img{
     position: absolute;
     left: 600px;
     top: 100px;
     height: 500px;
 }
-
+/* I made an animation when you click on the logo, but it does it on the original position */
 .purplelogo:active{
     transition: transform 1s;
     transform: rotateY(360deg);
 }
 /* //////////////OUR STORY CONTENT//////////////// */
-
 .story p{
     font-family: 'Roboto', sans-serif;
     width: 675px;
@@ -93,14 +87,12 @@ body{
     left: 550px;
     color: white;
 }
-
 .greenlogo img{
     position: absolute;
     top: 250px;
     height: 550px;
     left: 175px;
 }
-
 .cherryback img{
     width: 100%;
 }
@@ -124,7 +116,6 @@ h2{
 .logobanner{
     background-color: white;
 }
-
 .logobanner img{
     background-color: white;
     padding: 10px;
@@ -132,13 +123,11 @@ h2{
     width: 500px;
     margin: auto;
 }
-
 .buttonwrap{
     width: 600px;
     margin: auto;
 }
-
-
+/* general button styling */
 .btn{
     border-radius: 5px;
     background-color: #4E2C5D;
@@ -150,63 +139,48 @@ h2{
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
 }
-
-.btn a{
-    text-decoration: none;
-    font-family: 'Oswald', sans-serif;
-    color: #8BBE1A;
-    text-align: center;
-}
-
+/* hover effect to highlight the selection */
 .btn:hover{
     background: rgb(41, 0, 41);
     text-decoration: solid;
 }
-
+/* flex to make them a row */
 .toprow{
     display: flex;
    
 }
-
+/* flex basis on all the child selectors of 100% to make them equal size */
 .toprow > * {
     flex-basis: 100%;
 }
-
 .bottomrow{
     display: flex;
 
 }
-
 .bottomrow > * {
     flex-basis: 100%;
 }
-/* I used flex basis to make their size even */
-
+/* width of 100% so that the image stays on scale */
 .productimg img{
     width: 100%;
 }
-
 /* //////////////FOOTER STYLING//////////////// */
-
 h1{
     margin: 0;
     padding: 10px;
     text-align: center;
 }
-
 p{
     margin: 0;
     padding: 0px 50px;
     font-size: 18px;
     text-align: justify;
 }
-
 .inner-footer{
     margin: 0;
     padding: 0;
     background-color: #8BBE1A;
 }
-
 .footlogo{
     padding: 10px;
     display: flex;
@@ -217,7 +191,6 @@ p{
 .footlogo img{
     height: 50px;
 }
-
 .inner-footer h4{
     color: #4E2C5D;
     font-family: 'Oswald', sans-serif;
@@ -226,11 +199,9 @@ p{
     text-align: center;
     margin: 15px 0px 0px 0px;
 }
-
 .social-links1{
     display: flex;
 }
-
 .social-links1 ul{
     padding: 10px;
     display: flex;
@@ -238,11 +209,9 @@ p{
     height: 50px;
     margin: auto;
 }
-
 .social-links2{
     display: flex;
 }
-
 .social-links2 ul{
     padding: 10px;
     display: flex;
@@ -250,30 +219,25 @@ p{
     height: 20px;
     margin: auto;
 }
-
 .social-items{
     list-style: none;
     display: flex;
     margin: auto;
 }
-
 .social-items li{
     margin: 0px;
     padding: 0px;
 }
-
 .social-items a{
     padding: 10px 10px;
     font-size: 35px;
     color: #4E2C5D;
     margin: 0;
 }
-
 .social-items:hover{
     transition: transform 0.3s;
     transform: scale(1.75);
 }
-
 .copyright{
     color: #4E2C5D;
     padding: 40px 0px;
@@ -281,7 +245,6 @@ p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 footer{
     background-color: #8BBE1A;
     padding-top: 10px;
