@@ -67,9 +67,11 @@ body{
 /* I used the absolute value to make the big logo be over the image */
 .purplelogo img{
     position: absolute;
-    left: 600px;
-    top: 100px;
+    left: 40%;
+    top: 15%;
     height: 500px;
+    max-width: 600px;
+    margin: auto;
 }
 /* I made an animation when you click on the logo, but it does it on the original position */
 .purplelogo:active{
